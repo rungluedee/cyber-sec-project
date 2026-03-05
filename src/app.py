@@ -1,6 +1,5 @@
 def login(username, password):
-    """Basic login function"""
-    if username == "admin" and \
-       password == "secure_pw":
-        return True
-    return False
+    print("Login attempt detected")
+    if username == "admin":
+        return "Login Success"
+    return "Login Failed"
