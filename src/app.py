@@ -1,4 +1,3 @@
-#src/app.py
 def login(username, password):
     """Basic login function"""
     if username == "admin" and \
